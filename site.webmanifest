@@ -1,0 +1,15 @@
+{
+  "name": "Ibrahim Ahmed",
+  "short_name": "Ibrahim",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#f2efe9",
+  "theme_color": "#b8430f",
+  "icons": [
+    {
+      "src": "assets/avatar.jpg",
+      "sizes": "any",
+      "type": "image/jpeg"
+    }
+  ]
+}
