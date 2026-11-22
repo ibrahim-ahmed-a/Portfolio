@@ -23,7 +23,7 @@
 
 .gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--gap); }
 .shot { margin: 0; display: flex; flex-direction: column; gap: 10px; }
-.shot.wide { grid-column: 1 / -1; }
+.shot.wide { grid-column: 1 / -1; }\n.shot.tall .shot-btn img { max-height: 620px; width: auto; max-width: 100%; margin-inline: auto; }
 .shot-btn { display: block; width: 100%; padding: clamp(8px, 1.2vw, 14px); background: #ffffff; border: var(--bw) solid var(--line); border-radius: var(--r-lg); box-shadow: var(--shadow-sm); cursor: zoom-in; overflow: hidden; transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s; }
 .shot-btn:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
 .shot-btn img { width: 100%; height: auto; transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1); }
